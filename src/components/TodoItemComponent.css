@@ -1,0 +1,36 @@
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 0.7em;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.todo-text {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.todo button {
+  color: #f37070;
+  background: transparent;
+  transition: 0.3s all;
+  border-radius: 4px;
+}
+
+.todo button:hover {
+  color: #fff;
+  background-color: red;
+}
+
+.todo-completed {
+  text-transform: capitalize;
+  color: green;
+  cursor: pointer;
+  text-decoration: line-through;
+}
